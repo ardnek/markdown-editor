@@ -18,10 +18,9 @@ html, body {
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
   text-decoration: none;
-  font-weight: 200;
   font-style: normal;
-  font-size: 14 px;
   line-height: 35px;
+  text-color: purple;
 }
 
 .title-right {
@@ -30,16 +29,14 @@ html, body {
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
   text-decoration: none;
-  font-weight: 200;
   font-style: normal;
-  font-size: 14 px;
   line-height: 35px;
 }
 
 
 .left-column {
-  min-height: 600px;
   width: 650px;
+  min-height: 600px;
   float: left;
   display: inline;
 }
@@ -50,7 +47,11 @@ html, body {
   min-height: 600px;
   float:left;
   margin-left: 20px;
+  padding: 10px;
+  background-image: url(/marky-mark_opacity.jpg);
+  background-size: cover;
 }
+
 
 textarea {
   resize: none;
@@ -63,4 +64,6 @@ textarea {
   font-family: 'Hind', sans-serif;
   font-size: 14px;
   line-height: 25px;
+  background-image: url(/marky-mark2_opacity.jpg);
+  background-size: cover;
 }
