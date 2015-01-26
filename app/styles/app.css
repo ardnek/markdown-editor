@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 20px;
   text-decoration: none;
@@ -7,63 +11,46 @@ html, body {
   line-height: 24px;
 }
 
-*, :after, :before {
-  box-sizing: border-box;
+.left-column h1 {
+  font-family: 'Yellowtail', cursive;
+  font-weight: 400;
+  font-weight: bold;
+  color: #663366;
+  font-size: 38px;
 }
-
-.title-left {
-  float: left;
-  display: inline;
-  width: 650px;
-  font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-style: normal;
-  line-height: 35px;
-  text-color: purple;
-}
-
-.title-right {
-  float:left;
-  margin-left: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-style: normal;
-  line-height: 35px;
-}
-
 
 .left-column {
-  width: 650px;
-  min-height: 600px;
   float: left;
   display: inline;
 }
 
 .right-column {
-  /*border: 1px solid black;*/
   width: 650px;
   min-height: 600px;
   float:left;
   margin-left: 20px;
-  padding: 10px;
+  margin-top: 75px;
+  padding: 20px;
   background-image: url(/marky-mark_opacity.jpg);
   background-size: cover;
+  font-family: 'Hind', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
 }
-
 
 textarea {
   resize: none;
   min-height: 600px;
   width: 650px;
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;
-  padding: 10px;
+  padding: 20px;
   font-family: 'Hind', sans-serif;
   font-size: 14px;
   line-height: 25px;
   background-image: url(/marky-mark2_opacity.jpg);
   background-size: cover;
+}
+
+textarea:focus {
+  border: 1px solid purple;
+  outline: 0;
 }
