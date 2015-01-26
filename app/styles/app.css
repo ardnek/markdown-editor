@@ -1,17 +1,41 @@
 html, body {
   margin: 20px;
+  text-decoration: none;
+  font-style: normal;
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
 }
 
 .title-left {
   float: left;
   display: inline;
   width: 650px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14 px;
+  line-height: 35px;
 }
 
 .title-right {
   float:left;
   margin-left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14 px;
+  line-height: 35px;
 }
+
 
 .left-column {
   min-height: 600px;
@@ -21,7 +45,7 @@ html, body {
 }
 
 .right-column {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 650px;
   min-height: 600px;
   float:left;
@@ -30,8 +54,13 @@ html, body {
 
 textarea {
   resize: none;
-  border: 1px solid black;
   min-height: 600px;
   width: 650px;
-
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: 'Hind', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
 }
