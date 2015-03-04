@@ -2,6 +2,20 @@
 
 Production URL: https://marky-markdown-editor.herokuapp.com/
 
+## Product Description
+Live Markdown editor that renders markdown based on user input-- AND with the help of Marky Mark!
+
+## Technical Notes
+
+Interesting tech from this project include:
+Ember CLI
+Handlebars
+JavaScript
+
+Note: I took the project a step further by creating a custom design with Marky Mark and hand-coding CSS.
+
+
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
